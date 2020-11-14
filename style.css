@@ -147,6 +147,46 @@ header {
    margin-top: 20px;
 }
 
+/* Tools */
+.tools-title {
+   color: #025157;
+   text-align: center;
+   font-size: 15px;
+}
+
+.tools-container {
+   padding-top: 30px;
+   padding-bottom: 50px;
+   max-width: 1400px;
+}
+
+.tools-container .tools-items {
+   text-align: center;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   width: 280px;
+   height: 300px;
+   margin: 16px auto;
+}
+
+.tools-items__container {
+   padding: 18px;
+}
+
+.tools-items .tools-items__container h3 {
+   margin: 20px 0;
+   font-size: 20px;
+}
+
+.tools-items .tools-items__container p {
+   font-size: 15px;
+}
+
+.tools-items img {
+   margin-top: 20px;
+   width: 40px;
+}
+
 /* Responsive */
 @media (min-width: 768px) {
    .container-promo {
@@ -211,7 +251,26 @@ header {
    .feature-card__content p {
       font-size: 1.3rem;
    }
-} 
+   /* TOOLS */
+   .tools-title {
+      padding-top: 120px;
+      font-size: 2rem;
+   }
+   .tools-container {
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 0rem;
+   }
+}
+
+@media (min-width: 1200px) {
+   .tools-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 0rem;
+   }
+}
 
 /* Solo la navbar desaparece en dispositivos medianos y pequeños */
 @media (max-width: 1200px) {
