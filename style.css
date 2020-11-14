@@ -45,6 +45,81 @@ header {
    border: none;
 }
 
+.main {
+   max-width: 1200px;
+   width: 95%;
+   margin: 0 auto;
+}
+
+.feature-content-header {
+   text-align: center;
+}
+
+.feature-content-header h2 {
+   color: #025157;
+}
+
+.feature-card {
+   height: 380px;
+   width: 300px;
+   text-align: center;
+   margin: 15px auto;
+}
+
+.feature-card__img {
+   margin-bottom: 20px;
+}
+
+.feature-card .feature-card__img img {
+   width: 100%;
+   border-radius: 10px;
+   border: 1px solid #ccc;
+}
+
+.feature-card__content a {
+   color: black;
+   text-decoration: none;
+   font-size: 1.3rem;
+}
+
+.feature-card__content p {
+   font-size: 1.1rem;
+   margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+
+   .feature-content-header {
+      padding-top: 120px;
+      padding-bottom: 60px
+   }
+
+   .feature-content-header h2 {
+      font-size: 4rem;
+   }
+
+   .feature-content-header p {
+      font-size: 1.2rem;
+   }
+
+   .feature-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .feature-card {
+      width: 430px;
+   }
+
+   .feature-card__content a {
+      font-size: 1.5rem;
+   }
+   
+   .feature-card__content p {
+      font-size: 1.3rem;
+   }
+}
 
 
 /* Solo la navbar desaparece en dispositivos medianos y pequeños */
