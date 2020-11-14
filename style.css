@@ -45,11 +45,15 @@ header {
    border: none;
 }
 
+/* Contenido */
+
 .main {
-   max-width: 1700px;
+   max-width: 1200px;
    width: 95%;
    margin: 0 auto;
 }
+
+/* PROMO */
 
 .container-promo {
    margin-top: 2rem;
@@ -95,8 +99,38 @@ header {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+   .container-promo {
+      padding-top: 120px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+   }
 
+   .container-promo__title {
+      max-width: 600px;
+      text-align: left;
+   }
+
+   .container-promo__title h1 {
+      font-size: 3rem;
+      color: #025157;
+   }
+
+   .container-promo__title p {
+      font-size: 1.5rem;
+   }
+
+   .container-promo__btns {
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+   }
+
+   .container-promo__btns img {
+      margin-left: 20px;
+   }
 } 
 
 /* Solo la navbar desaparece en dispositivos medianos y pequeños */
