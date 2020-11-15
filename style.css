@@ -4,6 +4,10 @@
    box-sizing: border-box;
 }
 
+button {
+   cursor: pointer;
+}
+
 header {
    width: 100%;
    padding-top: 30px;
@@ -43,12 +47,6 @@ header {
    padding: 10px 20px;
    border-radius: 5px;
    border: none;
-}
-
-.main {
-   max-width: 1200px;
-   width: 95%;
-   margin: 0 auto;
 }
 
 /* Contenido */
@@ -147,6 +145,83 @@ header {
    margin-top: 20px;
 }
 
+/* cases */
+
+.cases {
+   max-width: 1200px;
+   width: 95%;
+   margin: 0 auto;
+}
+
+.cases .cases-text {
+   text-align: left;
+   padding: 10px 30px;
+}
+
+.cases-text__title {
+   font-size: 2rem;
+   color: #025157;
+   font-weight: 900;
+   padding-bottom: 10px;
+}
+
+.cases-text p {
+   font-size: 20px;
+   text-align: left;
+   margin-bottom: 1rem;
+}
+
+.cases-text button {
+   color: #fff;
+   border-radius: 8px;
+   border: none;
+   padding: 15px 20px;
+   background: #025157;
+}
+
+.cases-card-content {
+   border-radius: 5px;
+   width: 90%;
+   margin: 0 auto;
+   border: 1px solid #ccc;
+}
+
+.cases-card-containerImg {
+   background-image: url('https://getmatcha.com/wp-content/uploads/2019/05/profile-headshot-square.png') ;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 200px;
+}
+
+.cases-card-infoCard {
+   text-align: center;
+   padding: 10px;
+}
+
+.cases-card-infoCard__title {
+   font-size: 1.5rem;
+   font-weight: 400;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.cases-card-infoCard p {
+   text-align: left;
+   padding-bottom: 20px;
+}
+
+.cases-card-infoCard button {
+   width: 80%;
+   background: #025157;
+   border-radius: 5px;
+   border: none;
+   font-size: 13px;
+   color: #fff;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
 /* Responsive */
 @media (min-width: 768px) {
    .container-promo {
@@ -210,6 +285,24 @@ header {
    
    .feature-card__content p {
       font-size: 1.3rem;
+   }
+
+   /* cases */
+   .cases {
+      padding-top: 120px;
+      display: grid;
+      align-items: center;
+      grid-template-columns: 30% 1fr;
+      column-gap: 2rem;
+   }
+
+   .cases-text {
+      grid-column: 2 / 3;
+   }
+
+   .cases-card {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
    }
 } 
 
