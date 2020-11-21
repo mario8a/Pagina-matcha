@@ -12,12 +12,9 @@ button {
 }
 
 header {
-   width: 100%;
    padding-top: 30px;
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
 }
+/* 
 
 .navbar-header {
    width: 40%;
@@ -55,7 +52,7 @@ header {
 
 .actions button:hover {
    background-color: #67b54b;
-}
+} */
 
 /* Contenido */
 
