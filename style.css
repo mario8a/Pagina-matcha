@@ -55,45 +55,14 @@ header {
 } */
 
 /* Contenido */
-
+/* 
 .main {
    max-width: 1200px;
    width: 95%;
    margin: 0 auto;
-}
+} */
 
 /* PROMO */
-
-.container-promo {
-   margin-top: 2rem;
-   padding: 0 10px;
-}
-
-.container-promo__title {
-   text-align: center;
-}
-
-.container-promo__title h1 {
-   font-size: 1.5rem;
-   color: #025157;
-   margin: 10px 0;
-   font-family: 'Vesper Libre', serif;
-}
-
-.container-promo__title p{
-   font-size: 1.2rem;
-}
-
-.container-promo-video video {
-   width: 100%;
-}
-
-.container-promo__btns {
-   margin: 10px 0;
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-}
 
 .container-promo__btns button{
    color: white;
@@ -104,8 +73,32 @@ header {
    border-radius: 5px;
 }
 
-.container-promo__btns img{
-   margin: 15px 0;
+.container-promo__title h1 {
+   font-size: 1.5rem;
+   color: #025157;
+   margin: 10px 0;
+   font-family: 'Vesper Libre', serif;
+}
+
+.container-promo-video {
+   padding-top: 20px;
+}
+
+.container-promo-video video {
+   width: 100%;
+}
+
+.container-promo {
+   margin-top: 2rem;
+}
+
+.container-promo__title {
+   text-align: center;
+}
+
+
+.container-promo__title p{
+   font-size: 1.2rem;
 }
 
 /* FEATURES */
