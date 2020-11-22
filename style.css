@@ -91,10 +91,11 @@ header {
 
 /* Tools */
 
-.tools-title {
+.tools-title h2{
+   margin-top: 5rem;
    color: #025157;
    text-align: center;
-   font-size: 15px;
+   font-size: 2rem;
 }
 
 .tools-title h2 {
@@ -519,9 +520,9 @@ footer {
 }
 
    /* Tools */
-   .tools-title {
+   .tools-title h2{
       padding-top: 120px;
-      font-size: 2rem;
+      font-size: 3rem;
    }
    .tools-container {
       margin: 0 auto;
